@@ -3,9 +3,14 @@ Tools for my homemade arcade frankepanel. May be of use for others, who knows.
 
 CONTENTS
 
-KEYPAD STUFF
+KEYPAD STUFF ("dual keypads" and "dual keypads_hid")
 
-My panel includes two numeric keypads to interact with Atari 5200/Colecovision/Intellivision/Odyssey 2/Jaguar games. They're wired to an Arduino Uno. It has some limitations (only 1 key can be pressed at a time, and there's some delay) but as they're mainly used as system buttons and the 2-player games using numeral pads are quite rare, it's not really an issue. I believe it can be improved by using an Arduino Leonardo's specific HID functions, but as I already had an Uno, I wanted to give it a shot.
+These Arduino sketches allow to use dual kepads for second-generation console gaming (and also Atari Jaguar).
 
-- Dual keypads.ino : code for connecting two numeral keypads to an Arduino Uno and output the default OpenMSX Colecovision bindings to serial.
-- Keypad_to_keystroke.py : code for converting this serial output to keystrokes. Must be launched as admin to work properly.
+First Keypad is wired to ports 2 to 8, second one from port 9 to port A1.
+
+If using an Arduino Uno, you must use the included python script ("keypad-to-keystroke.py" - run as admin) to turn the serial output to a keyboard hid output. However, there are some severe limitations : only one key can be pressed at the time, holding a key isn't supported, and there is some delay before you can push another key. It's still useful for menu/function uses, but not for games heavily relying on keypads such as Intellivision Dungeons & Dragons, or Atari 5200 Star Raiders.
+
+The Arduino Leonardo don't have these limitations, and fully enables two-player second generation gaming without hiccups.
+
+The bindings are those used by openmsx. They're easily editable if you need to.
