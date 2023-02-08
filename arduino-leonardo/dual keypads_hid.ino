@@ -53,15 +53,15 @@ void keypadLoop1() {
   Keyboard.print(key1);
 }
 
-else if (state == RELEASED && !hasReleasedKey1) {
+else if (state1 == RELEASED && !hasReleasedKey) {
 // Multiple RELEASED events occur when there had not been HOLD
  Keyboard.print(key1);
  hasReleasedKey = true;
 
 }
-else if (state == HOLD) {
+else if (state1 == HOLD) {
 Keyboard.print(key1);
-Keyboard.println(previousPressedKey1);
+Keyboard.println(previousPressedKey);
 
 }
 }
@@ -76,23 +76,15 @@ void keypadLoop2() {
   Keyboard.print(key2);
 }
 
-else if (state == RELEASED && !hasReleasedKey2) {
+else if (state2 == RELEASED && !hasReleasedKey) {
 // Multiple RELEASED events occur when there had not been HOLD
  Keyboard.print(key2);
  hasReleasedKey = true;
 
 }
-else if (state == HOLD) {
+else if (state2 == HOLD) {
 Keyboard.print(key2);
-Keyboard.println(previousPressedKey2);
+Keyboard.println(previousPressedKey);
 
 }
 }
-
- // if (key1){
-//Serial.println(key1);
- // }
-  
- //   if (key2){
-//Serial.println(key2);
- // }
