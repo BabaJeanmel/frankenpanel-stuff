@@ -5,7 +5,7 @@ CONTENTS
 
 KEYPAD STUFF ("dual keypads" and "dual keypads_hid")
 
-These Arduino sketches allow to use dual kepads for second-generation console gaming (and also Atari Jaguar).
+These Arduino sketches allow to use dual 4x3 kepads for second-generation console gaming (and also Atari Jaguar).
 
 First Keypad is wired to ports 2 to 8, second one from port 9 to port A1.
 
