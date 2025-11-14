@@ -20,7 +20,9 @@ GREMLIN EX CONFIG
 I use the following software :
 
 https://github.com/nefarius/ViGEmBus
+
 https://github.com/nefarius/HidHide
+
 https://github.com/muchimi/JoystickGremlinEx
 
 to map the U-HID along with the 4 ultrastiks to 2 virtual XBox controllers.
