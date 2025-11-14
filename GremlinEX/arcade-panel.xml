@@ -1,0 +1,437 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<profile version="16" start_mode="Default" default_mode="Default" restore_last="False" force_numlock="True" force_numlock_on="False">
+  <modes>
+    <mode name="Default"/>
+    <mode name="b3b159a04d064bd693f97583ec08b877"/>
+  </modes>
+  <devices>
+    <device name="Ultimarc Ultra-Stik Player 3" label="" device-guid="601066f09e5111ec8001444553540000" type="joystick">
+      <mode name="Default">
+        <axis id="1">
+          <container type="basic" container_id="91d58ab57f414ef3b9bc3b551e36dd5e" collapsed="False">
+            <action-set>
+              <map-to-gamepad mode="right_x" device_index="0" action_id="0ee2327ddfde4376b41b0c1c2f595c39" priority="5"/>
+            </action-set>
+            <activation-condition rule="all" condition_id="b7b027deae8145a19849527940108c82"/>
+          </container>
+        </axis>
+        <axis id="2">
+          <container type="basic" container_id="9e9b051255914a5291172286fc9ce03b" collapsed="False">
+            <action-set>
+              <map-to-gamepad mode="right_y" device_index="0" action_id="dcd2e3c2cbfa407c9a67dc5cd4282e71" priority="5"/>
+            </action-set>
+            <activation-condition rule="all" condition_id="3ead92b34a774a1fa0165dccef64d8fa"/>
+          </container>
+        </axis>
+        <button id="1">
+          <container type="basic" container_id="cc9dcc24b5e24c9188ad1c3153caa7f6" collapsed="False">
+            <action-set>
+              <map-to-gamepad mode="button_x" device_index="0" action_id="740e6fe8f28f4c9e86fac64f5f8b71dc" priority="5"/>
+            </action-set>
+            <activation-condition rule="all" condition_id="3ec0abbd57494856a4bc25a7ead556ea"/>
+          </container>
+        </button>
+        <button id="2">
+          <container type="basic" container_id="aab6a6dc26a544d089130a565405aebe" collapsed="False">
+            <action-set>
+              <map-to-gamepad mode="button_a" device_index="0" action_id="c86050bb426c427c9b6e23b87214d51e" priority="5"/>
+            </action-set>
+            <activation-condition rule="all" condition_id="9b2c95b95579449391a43473c75006d7"/>
+          </container>
+        </button>
+      </mode>
+    </device>
+    <device name="UHID Gamepad Device #1" label="" device-guid="6eaf3ae09b5011ed8002444553540000" type="joystick">
+      <mode name="Default">
+        <axis id="1">
+          <curve-data mode="none" centered="False" id="13d1cf8ceb644fc4b8a279e3ff318dad">
+            <mapping type="cubic-spline">
+              <control-point x="-1.00000" y="-1.00000"/>
+              <control-point x="1.00000" y="1.00000"/>
+            </mapping>
+            <deadzone low="-1.00000" center-low="0.00000" center-high="0.00000" high="1.00000"/>
+          </curve-data>
+        </axis>
+        <axis id="2">
+          <curve-data mode="none" centered="False" id="1ef2798955a64b15b75b0225f578e32d">
+            <mapping type="cubic-spline">
+              <control-point x="-1.00000" y="-1.00000"/>
+              <control-point x="1.00000" y="1.00000"/>
+            </mapping>
+            <deadzone low="-1.00000" center-low="0.00000" center-high="0.00000" high="1.00000"/>
+          </curve-data>
+        </axis>
+        <axis id="3">
+          <curve-data mode="none" centered="False" id="6a3d798cb19949b691c5edd4e197de52">
+            <mapping type="cubic-bezier-spline">
+              <control-point x="-1.00000" y="-1.00000"/>
+              <control-point x="-1.00000" y="0.00000"/>
+              <control-point x="-0.08000" y="0.00000"/>
+              <control-point x="0.00000" y="0.00000"/>
+              <control-point x="0.08000" y="0.00000"/>
+              <control-point x="1.00000" y="0.00000"/>
+              <control-point x="1.00000" y="1.00000"/>
+            </mapping>
+            <deadzone low="-1.00000" center-low="0.00000" center-high="0.00000" high="1.00000"/>
+          </curve-data>
+          <container type="basic" container_id="3f6840f11dda4f08ae118809d676fd48" collapsed="False">
+            <action-set>
+              <map-to-gamepad mode="left_trigger" device_index="0" action_id="21aff45b8c9c40e5b700d0a47181f974" priority="5"/>
+            </action-set>
+            <activation-condition rule="all" condition_id="3bd25219cc7b43a9aa7f0c4c5fc2fe74"/>
+          </container>
+        </axis>
+        <axis id="4">
+          <curve-data mode="none" centered="False" id="6a3d798cb19949b691c5edd4e197de52">
+            <mapping type="cubic-bezier-spline">
+              <control-point x="-1.00000" y="-1.00000"/>
+              <control-point x="-1.00000" y="0.00000"/>
+              <control-point x="-0.08000" y="0.00000"/>
+              <control-point x="0.00000" y="0.00000"/>
+              <control-point x="0.08000" y="0.00000"/>
+              <control-point x="1.00000" y="0.00000"/>
+              <control-point x="1.00000" y="1.00000"/>
+            </mapping>
+            <deadzone low="-1.00000" center-low="0.00000" center-high="0.00000" high="1.00000"/>
+          </curve-data>
+          <container type="basic" container_id="b4f6dc94fd0748bcb11f456ca8632846" collapsed="False">
+            <action-set>
+              <map-to-gamepad mode="right_trigger" device_index="0" action_id="ab71c2fcbe30447db7dfa9feb863a8f6" priority="5"/>
+            </action-set>
+            <activation-condition rule="all" condition_id="3d713e65b5044eed88b41c88bea15129"/>
+          </container>
+        </axis>
+        <axis id="5">
+          <curve-data mode="none" centered="False" id="6a3d798cb19949b691c5edd4e197de52">
+            <mapping type="cubic-bezier-spline">
+              <control-point x="-1.00000" y="-1.00000"/>
+              <control-point x="-1.00000" y="0.00000"/>
+              <control-point x="-0.08000" y="0.00000"/>
+              <control-point x="0.00000" y="0.00000"/>
+              <control-point x="0.08000" y="0.00000"/>
+              <control-point x="1.00000" y="0.00000"/>
+              <control-point x="1.00000" y="1.00000"/>
+            </mapping>
+            <deadzone low="-1.00000" center-low="0.00000" center-high="0.00000" high="1.00000"/>
+          </curve-data>
+          <container type="basic" container_id="8344f6bc4413457d8a9eff1bfd9899cf" collapsed="False">
+            <action-set>
+              <map-to-gamepad mode="left_trigger" device_index="1" action_id="d63f8f75088b43acb7d86aff47f7efad" priority="5"/>
+            </action-set>
+            <activation-condition rule="all" condition_id="588be854bbeb4284a79f643f3f768539"/>
+          </container>
+        </axis>
+        <axis id="6">
+          <curve-data mode="none" centered="False" id="6a3d798cb19949b691c5edd4e197de52">
+            <mapping type="cubic-bezier-spline">
+              <control-point x="-1.00000" y="-1.00000"/>
+              <control-point x="-1.00000" y="0.00000"/>
+              <control-point x="-0.08000" y="0.00000"/>
+              <control-point x="0.00000" y="0.00000"/>
+              <control-point x="0.08000" y="0.00000"/>
+              <control-point x="1.00000" y="0.00000"/>
+              <control-point x="1.00000" y="1.00000"/>
+            </mapping>
+            <deadzone low="-1.00000" center-low="0.00000" center-high="0.00000" high="1.00000"/>
+          </curve-data>
+          <container type="basic" container_id="5527932342134aa4a68e7c5343eaa3c6" collapsed="False">
+            <action-set>
+              <map-to-gamepad mode="right_trigger" device_index="1" action_id="e9894e1ba19d4daebaa154a60367bcaf" priority="5"/>
+            </action-set>
+            <activation-condition rule="all" condition_id="38cc8181f27e4bf8b57077e1dc5fd108"/>
+          </container>
+        </axis>
+        <axis id="7">
+          <curve-data mode="none" centered="False" id="6a3d798cb19949b691c5edd4e197de52">
+            <mapping type="cubic-spline">
+              <control-point x="-1.00000" y="-1.00000"/>
+              <control-point x="1.00000" y="1.00000"/>
+            </mapping>
+            <deadzone low="-1.00000" center-low="0.00000" center-high="0.00000" high="1.00000"/>
+          </curve-data>
+        </axis>
+        <button id="1">
+          <container type="basic" container_id="c46646954aa34a438bddd62c1a5e9e52" collapsed="False">
+            <action-set>
+              <map-to-gamepad mode="button_x" device_index="0" action_id="7aaa39bdedb74a0b8b8b28cb5e55b503" priority="5"/>
+            </action-set>
+            <activation-condition rule="all" condition_id="5775375573c7484796e0fdf015fb1008"/>
+          </container>
+        </button>
+        <button id="2">
+          <container type="basic" container_id="bb63d030664449f58c45ef80e90fa4ac" collapsed="False">
+            <action-set>
+              <map-to-gamepad mode="button_a" device_index="0" action_id="a6eb65a1003745e5ad0f06c0a03109aa" priority="5"/>
+            </action-set>
+            <activation-condition rule="all" condition_id="7ab7d4d2c7664ee9bc1f3183feebb6a0"/>
+          </container>
+        </button>
+        <button id="3">
+          <container type="basic" container_id="7c476345549b4671bcb98d0bcf814812" collapsed="False">
+            <action-set>
+              <map-to-gamepad mode="button_y" device_index="0" action_id="822b9e30c358491cbe666056f98e8f43" priority="5"/>
+            </action-set>
+            <activation-condition rule="all" condition_id="fbc9348ff9bc4a9eadf68b0dad0631e0"/>
+          </container>
+        </button>
+        <button id="4">
+          <container type="basic" container_id="7eb38889d26e4034a9f35db5b717ef35" collapsed="False">
+            <action-set>
+              <map-to-gamepad mode="button_b" device_index="0" action_id="c1c7ff66acb14243959dbca20f211826" priority="5"/>
+            </action-set>
+            <activation-condition rule="all" condition_id="1b3ce356451c4667bcebcc97d089c74c"/>
+          </container>
+        </button>
+        <button id="5">
+          <container type="basic" container_id="2ebb59d010a54b3a8d3f5fe093d769ea" collapsed="False">
+            <action-set>
+              <map-to-gamepad mode="button_shoulder_left" device_index="0" action_id="7406d5b944594a25b884d7a46c63dc69" priority="5"/>
+            </action-set>
+            <activation-condition rule="all" condition_id="143f2dbd17034f41a107d1f1289148a4"/>
+          </container>
+        </button>
+        <button id="6">
+          <container type="basic" container_id="5b97d0ae2d5b405f8e84d9c40213f78c" collapsed="False">
+            <action-set>
+              <map-to-gamepad mode="button_shoulder_right" device_index="0" action_id="cfc22d04ff3d4a56b4148e4c57818c9e" priority="5"/>
+            </action-set>
+            <activation-condition rule="all" condition_id="28d94fca5ab04d39a733e4d0b15b8609"/>
+          </container>
+        </button>
+        <button id="9">
+          <container type="basic" container_id="11c84a8afa4b42ac9edce4094bd08d48" collapsed="False">
+            <action-set>
+              <map-to-gamepad mode="button_back" device_index="0" action_id="c64b06bb33954290bd57c15297f2e1c3" priority="5"/>
+            </action-set>
+            <activation-condition rule="all" condition_id="45cecb1ec39447088f498ce343807160"/>
+          </container>
+        </button>
+        <button id="10">
+          <container type="basic" container_id="96a73dade19a42d28e3e3cb8e05c4e99" collapsed="False">
+            <action-set>
+              <map-to-gamepad mode="button_start" device_index="0" action_id="24c4f31587034df9a1e39b6021d0204e" priority="5"/>
+            </action-set>
+            <activation-condition rule="all" condition_id="d40695208a3f42c78b31ddb5a3eaa0d6"/>
+          </container>
+        </button>
+        <button id="11">
+          <container type="basic" container_id="a1d71db075f64472a779e4fb924837a2" collapsed="False">
+            <action-set>
+              <map-to-gamepad mode="button_x" device_index="1" action_id="9602f526676146d5aa59136c326cf1fe" priority="5"/>
+            </action-set>
+            <activation-condition rule="all" condition_id="f0f07404a465447686aec72cc222dd24"/>
+          </container>
+        </button>
+        <button id="12">
+          <container type="basic" container_id="1a09b6027d5c4ecb9927f6c264959f44" collapsed="False">
+            <action-set>
+              <map-to-gamepad mode="button_a" device_index="1" action_id="232f5876c7dc408187e30ed16f673131" priority="5"/>
+            </action-set>
+            <activation-condition rule="all" condition_id="08e4fecf3b7446f8a5dde4215bfcba32"/>
+          </container>
+        </button>
+        <button id="13">
+          <container type="basic" container_id="a1449da5bafb48369e1dc5c7164a5c42" collapsed="False">
+            <action-set>
+              <map-to-gamepad mode="button_y" device_index="1" action_id="04bc8f3bb79a41f8b64ce6fa120d1c1b" priority="5"/>
+            </action-set>
+            <activation-condition rule="all" condition_id="83762a3ce17c48238aaf0b28db4662a1"/>
+          </container>
+        </button>
+        <button id="14">
+          <container type="basic" container_id="82dd1b862eae436c97916f79cbfc6c53" collapsed="False">
+            <action-set>
+              <map-to-gamepad mode="button_b" device_index="1" action_id="17c062e08e33427b9406def10a72169b" priority="5"/>
+            </action-set>
+            <activation-condition rule="all" condition_id="2e3a0c21fe674ae29bc1ee8b0978d4d4"/>
+          </container>
+        </button>
+        <button id="15">
+          <container type="basic" container_id="a2326b800a66491e92cdcd31790de1f8" collapsed="False">
+            <action-set>
+              <map-to-gamepad mode="button_shoulder_left" device_index="1" action_id="844f1208cfaa48e58adadb2929ddbbfd" priority="5"/>
+            </action-set>
+            <activation-condition rule="all" condition_id="ea5ef664b7c74fd69b2ccd8fb41ffcbe"/>
+          </container>
+        </button>
+        <button id="16">
+          <container type="basic" container_id="98d484dc7e13429fb0f3e859cd8964e9" collapsed="False">
+            <action-set>
+              <map-to-gamepad mode="button_shoulder_right" device_index="1" action_id="5994a0f852554809b0f722acb248c73b" priority="5"/>
+            </action-set>
+            <activation-condition rule="all" condition_id="04a692d5175841d78662b3fd3d51b83a"/>
+          </container>
+        </button>
+        <button id="19">
+          <container type="basic" container_id="f31b6de8a31f4bb1853db6ff06e8e026" collapsed="False">
+            <action-set>
+              <map-to-gamepad mode="button_back" device_index="1" action_id="ce9927c8a0214085931ceb2e0bfd103c" priority="5"/>
+            </action-set>
+            <activation-condition rule="all" condition_id="c651289e69ca438d9bfa86c47c734fbd"/>
+          </container>
+        </button>
+        <button id="20">
+          <container type="basic" container_id="ef4b66ff1800428a870c4299c4edf5dd" collapsed="False">
+            <action-set>
+              <map-to-gamepad mode="button_start" device_index="1" action_id="788e2b807c4442a58f1d8e911a6ae062" priority="5"/>
+            </action-set>
+            <activation-condition rule="all" condition_id="3db26ebbffe74c4db84f8bbe394d52c4"/>
+          </container>
+        </button>
+        <button id="21">
+          <container type="basic" container_id="6c4a09cc59aa4b84b5665eb6022ff8a4" collapsed="False">
+            <action-set>
+              <map-to-gamepad mode="button_dpad_left" device_index="1" action_id="717179e0bd5344dbb8747960bae250e8" priority="5"/>
+            </action-set>
+            <activation-condition rule="all" condition_id="3bae05ca5838431ea6facdb82042e198"/>
+          </container>
+        </button>
+        <button id="22">
+          <container type="basic" container_id="9e0725bf892444b5aba1021ae3a86909" collapsed="False">
+            <action-set>
+              <map-to-gamepad mode="button_dpad_right" device_index="1" action_id="e77fc6701ded494dad776ef83b1ed86b" priority="5"/>
+            </action-set>
+            <activation-condition rule="all" condition_id="408aabf3f98a4ef5b7c03296b442679a"/>
+          </container>
+        </button>
+        <button id="23">
+          <container type="basic" container_id="acfab80dd14b4911bd3343bbd2e14628" collapsed="False">
+            <action-set>
+              <map-to-gamepad mode="button_dpad_up" device_index="1" action_id="d198bb456dd14dc58d663f96ab10b793" priority="5"/>
+            </action-set>
+            <activation-condition rule="all" condition_id="4e7e5b1425ec4d2ab989091c3bf51a74"/>
+          </container>
+        </button>
+        <button id="24">
+          <container type="basic" container_id="e1a7c7ff88c941be8cf31a1d2959a4b2" collapsed="False">
+            <action-set>
+              <map-to-gamepad mode="button_dpad_down" device_index="1" action_id="0c1194f51ed54fe698648cc336488c3c" priority="5"/>
+            </action-set>
+            <activation-condition rule="all" condition_id="15d63d52cf214ec2960161dbef205cc7"/>
+          </container>
+        </button>
+        <hat id="1">
+          <container type="hat_buttons" button-count="8" sticky="False" container_id="75f1ce587fcf4b0c850f83dfa87801aa" collapsed="False">
+            <action-set position="North">
+              <map-to-gamepad mode="button_dpad_up" device_index="0" action_id="4513f50b7cac420cbf94b1a50bab571c" priority="5"/>
+            </action-set>
+            <action-set position="North-east">
+              <map-to-gamepad mode="button_dpad_up" device_index="0" action_id="31f41dffc20d4dc7912ad160025ab407" priority="5"/>
+              <map-to-gamepad mode="button_dpad_right" device_index="0" action_id="3a5924f2ec464fde86dd38b8c56fc784" priority="5"/>
+            </action-set>
+            <action-set position="East">
+              <map-to-gamepad mode="button_dpad_right" device_index="0" action_id="af9820ceb4924045b0ba4bf2d79bf6bf" priority="5"/>
+            </action-set>
+            <action-set position="South-east">
+              <map-to-gamepad mode="button_dpad_down" device_index="0" action_id="70128a0fecfb4f5389949df6c1416978" priority="5"/>
+              <map-to-gamepad mode="button_dpad_right" device_index="0" action_id="965d2605bce14225a8201eece386ae9a" priority="5"/>
+            </action-set>
+            <action-set position="South">
+              <map-to-gamepad mode="button_dpad_down" device_index="0" action_id="293389b3439a4fe3a18636aadd2405be" priority="5"/>
+            </action-set>
+            <action-set position="South-west">
+              <map-to-gamepad mode="button_dpad_down" device_index="0" action_id="ab320607518b43ac94bc0b2f336d43de" priority="5"/>
+              <map-to-gamepad mode="button_dpad_left" device_index="0" action_id="a7124e18f61e46dfb4606c65c1da9738" priority="5"/>
+            </action-set>
+            <action-set position="West">
+              <map-to-gamepad mode="button_dpad_left" device_index="0" action_id="82bca82ac0454b88aa226f1ed2be4ac4" priority="5"/>
+            </action-set>
+            <action-set position="North-west">
+              <map-to-gamepad mode="button_dpad_up" device_index="0" action_id="04055202a0dd40489bbd0fe25a0474be" priority="5"/>
+              <map-to-gamepad mode="button_dpad_left" device_index="0" action_id="0a54cca40f1949fc99c348de9a9e1e1c" priority="5"/>
+            </action-set>
+            <activation-condition rule="all" condition_id="e6f6e47c346447218e699bf95288f770"/>
+          </container>
+        </hat>
+      </mode>
+    </device>
+    <device name="Ultimarc Ultra-Stik Player 4" label="" device-guid="8cb3ff50a0a411ec8001444553540000" type="joystick">
+      <mode name="Default">
+        <axis id="1">
+          <container type="basic" container_id="0f75ab8811f540d9bf7ebbda3038d300" collapsed="False">
+            <action-set>
+              <map-to-gamepad mode="right_x" device_index="1" action_id="cf61ccb1b2a34f85ae1eafa271d53a08" priority="5"/>
+            </action-set>
+            <activation-condition rule="all" condition_id="cb3efa7b1c1542b7875e0fd38e2edfe2"/>
+          </container>
+        </axis>
+        <axis id="2">
+          <container type="basic" container_id="be9f0307db68478fb22751878d9b60c7" collapsed="False">
+            <action-set>
+              <map-to-gamepad mode="right_y" device_index="1" action_id="0a566a27fd954b66b296c6d0ef9372f0" priority="5"/>
+            </action-set>
+            <activation-condition rule="all" condition_id="37690b429f0145738c10f028455de1c3"/>
+          </container>
+        </axis>
+        <button id="1">
+          <container type="basic" container_id="8d42315fc04948b6b17ef8e4418b4d8a" collapsed="False">
+            <action-set>
+              <map-to-gamepad mode="button_x" device_index="1" action_id="bf14d2741cb845f3a305bdbbe6c65122" priority="5"/>
+            </action-set>
+            <activation-condition rule="all" condition_id="f99500ea948f4f9587ad8bb077c20e4e"/>
+          </container>
+        </button>
+        <button id="2">
+          <container type="basic" container_id="7e05e12e81fd468c9f3260191dd8e90a" collapsed="False">
+            <action-set>
+              <map-to-gamepad mode="button_a" device_index="1" action_id="c8b22d12d1034d028007aaa3cb1d921c" priority="5"/>
+            </action-set>
+            <activation-condition rule="all" condition_id="a1ff783cc5354e9eb6006b4ba59d8f47"/>
+          </container>
+        </button>
+      </mode>
+    </device>
+    <device name="Ultimarc Ultra-Stik Player 1" label="" device-guid="be81f1e09bd111ec8004444553540000" type="joystick">
+      <mode name="Default">
+        <axis id="1">
+          <container type="basic" container_id="2ecadfe583f84cf0ad521593db32b33a" collapsed="False">
+            <action-set>
+              <map-to-gamepad mode="left_x" device_index="0" action_id="a254592836e74a45a3eee78525d4979f" priority="5"/>
+            </action-set>
+            <activation-condition rule="all" condition_id="0d30b0b08bb34deba57c9cb5d9d5b433"/>
+          </container>
+        </axis>
+        <axis id="2">
+          <container type="basic" container_id="d0a9fb80de41422292a4577201db1d35" collapsed="False">
+            <action-set>
+              <map-to-gamepad mode="left_y" device_index="0" action_id="833ac272235540858c65fdbd15e909fc" priority="5"/>
+            </action-set>
+            <activation-condition rule="all" condition_id="70560f74b919400a9f69b4c2eb7486d9"/>
+          </container>
+        </axis>
+      </mode>
+    </device>
+    <device name="Ultimarc Ultra-Stik Player 2" label="" device-guid="c18212809bd111ec800a444553540000" type="joystick">
+      <mode name="Default">
+        <axis id="1">
+          <container type="basic" container_id="28ed27ce7ac848a28e1901ce0e5ec10f" collapsed="False">
+            <action-set>
+              <map-to-gamepad mode="left_x" device_index="1" action_id="ef42f83daa0347f0a02287d91b961849" priority="5"/>
+            </action-set>
+            <activation-condition rule="all" condition_id="635f0173ced846b5b5de0bfe5a8fbc24"/>
+          </container>
+        </axis>
+        <axis id="2">
+          <container type="basic" container_id="1fa58af102fe45e597a83c5e98aa2f30" collapsed="False">
+            <action-set>
+              <map-to-gamepad mode="left_y" device_index="1" action_id="6942a1c4e454487b8225f233d3439c04" priority="5"/>
+            </action-set>
+            <activation-condition rule="all" condition_id="7ae1c818436f4b9aaa1e5e989f1aaf01"/>
+          </container>
+        </axis>
+      </mode>
+    </device>
+  </devices>
+  <settings>
+    <default-delay>0.05000000</default-delay>
+  </settings>
+  <plugins/>
+  <start>
+    <devices/>
+  </start>
+  <states>
+    <categories>
+      <category name="default" id="5e54b523700c4a5996bfea85ce1ea75e"/>
+    </categories>
+  </states>
+</profile>
