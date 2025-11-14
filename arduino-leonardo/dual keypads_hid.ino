@@ -9,8 +9,8 @@ char keys1[ROWS1][COLS1] = {
   { '\347', '\350', '\351' },
   { '\335', '\352', '\336' }
 };
-byte rowPins1[ROWS1] = { 8, 7, 6, 5 };
-byte colPins1[COLS1] = { 4, 3, 2 };
+byte rowPins1[ROWS1] = { 2, 3, 4, 5 };
+byte colPins1[COLS1] = { 6, 7, 8 };
 
 Keypad keypad1 = Keypad(makeKeymap(keys1), rowPins1, colPins1, ROWS1, COLS1);
 
